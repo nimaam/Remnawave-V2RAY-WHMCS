@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "Remnawave",
+  "license": "proprietary",
+  "category": "cloud",
+  "description": {
+    "name": "Remnawave V2RAY Provisioning",
+    "tagline": "Provision and Manage VPN with Remnawave Panel",
+    "long": "Provision VMESS, VLESS, ShadowSocks and VPN connections supported by Remnawave panel from WHMCS. Uses Remnawave HTTP API (Bearer token).",
+    "features": [
+      "Auto provisioning",
+      "Suspend / Unsuspend",
+      "Termination / Reactivation",
+      "Reset Traffic / Change Package",
+      "API driven automation"
+    ]
+  },
+  "logo": { "filename": "logo.png" },
+  "support": {
+    "homepage": "https://docs.rw/api/",
+    "docs_url": "https://docs.rw/api/",
+    "support_url": "https://docs.rw/"
+  },
+  "authors": [
+    { "name": "Nima Alizadeh", "homepage": "https://nimaalizadehm.com" }
+  ]
+}
