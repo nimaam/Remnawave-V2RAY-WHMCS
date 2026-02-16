@@ -54,12 +54,6 @@ To populate the Internal Squad dropdown from the Remnawave server, the product c
 
 (Requires admin session.) Response: `{ "success": true, "squads": [ { "id": "uuid", "name": "...", "remark": "..." }, ... ] }`.
 
-## Comparison with 3x-ui module
-
-- Remnawave uses **users** and **internal squads**; 3x-ui uses **inbounds** and **clients** on an inbound. Here one WHMCS service = one Remnawave user assigned to one squad.
-- Auth is **Bearer token** (server Password), not session login.
-- Subscription URL is built from user UUID (and optional subscription domain/path from server config).
-
 ## License
 
 Proprietary. See whmcs.json.
